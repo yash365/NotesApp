@@ -35,6 +35,17 @@ public class NavigationActivity extends AppCompatActivity {
         BottomNavigationView navView = findViewById(R.id.nav_view);
         mTextMessage = findViewById(R.id.message);
         navView.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
+
+        Tag tag = new Tag(
+                "High Priority",
+                R.color.colorAccent
+        );
+
+        Task task = new Task(
+                "Get Food"
+        );
+
+        String s = task.getTitle();
     }
 
 }
