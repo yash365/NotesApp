@@ -1,4 +1,4 @@
-package mineproject.com.notes
+package mineproject.com.notes.models
 
 // kotlin automatically creates getters and setters
 
